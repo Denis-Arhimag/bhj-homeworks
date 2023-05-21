@@ -19,7 +19,7 @@ getHole = index => document.getElementById(`hole${index}`);
             dead.textContent = counterDead;
         } else {
             counterMiss++;
-            lost.textContent = counterLost;
+            lost.textContent = counterMiss;
         }
  
     if (counterDead === 10) {
